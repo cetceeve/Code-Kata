@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Zoom</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Image-Zoom</h1>
+        <div id="task-toggle" class="info">&#8505;</div>
+    </header>
+    <div id="task">
+      Implementieren Sie eine Zoom-Funktion: Sobald der Nutzer die Maus über das linke Bildelement bewegt, wird der Bildausschnitt unter dem Cursor (20x20 Pixel, Cursor definiert die linke, obere Ecke des Ausschnitts) vergrößert in dem rechten Bildelement angezeigt.
+    </div>
+    <div id="images">
+        <img class="original" src="resources/images/original-image.png" />
+        <img class="zoom" />
+        <canvas id="hidden-canvas"></canvas>
+	</div>
+</body>
+
+<script type="application/javascript" src="vendors/task.js"></script>
+<script type="module" src="resources/js/app.js"></script>
+
+
+</html>

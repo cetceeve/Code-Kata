@@ -1,0 +1,3 @@
+# Color Sequence
+
+ Ergänzen Sie den vorhandenen Code so, dass beim Anklicken der Elemente durch den Nutzer, eine Sequenz gespeichert und anschließend abgespielt wird. Nach dem 10. Elemente angeklickt wurden (Elemente könnten mehrfach angeklickt werden), wird die so eingegebene Sequenz abgespielt. Dazu wird jedes der Elemente, in der korrekten Reihenfolge, für jeweils 1 Sekunde mit der CSS-Klasse `active` versehen. 

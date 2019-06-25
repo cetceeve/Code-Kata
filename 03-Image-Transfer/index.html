@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Transfer</title>
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Image-Transfer</h1>
+        <div id="task-toggle" class="info">&#8505;</div>
+    </header>
+    <div id="task">
+       Kopieren Sie das Bild aus dem linken <code>img</code>-Container in den rechten Container. Invertieren Sie dabei die Farbwerte der einzelnen Pixel. Sie können eine Farbe im <code>RGB</code>-Raum invertieren, in dem Sie die Werte der einzelnen Kanäle jeweils von <code>255</code> abziehen (<code>rgb(0,0,0)</code> wird zu <code>rgb(255,255,255)</code>).
+    </div>
+    <div id="images">
+        <img class="original" src="resources/images/original-image.png" />
+        <img class="transfer" />
+        <canvas id="hidden-canvas"></canvas>
+	</div>
+</body>
+
+<script type="application/javascript" src="vendors/task.js"></script>
+<script type="module" src="resources/js/app.js"></script>
+
+</html>
