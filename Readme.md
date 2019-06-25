@@ -1,4 +1,4 @@
-# Code Katas
+# Code Kata
 
 In diesem Repository finden Sie eine Reihen von [*Code Kata*](https://en.wikipedia.org/wiki/Kata_(programming)) aus dem Kontext der Javascript-basierten Webentwicklung. Nutzen Sie die Aufgaben, um Ihre Fähigkeiten bei der Verwendung der *Browser APIs* zu verbessern.
 
