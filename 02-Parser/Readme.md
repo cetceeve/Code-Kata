@@ -1,3 +1,2 @@
-# Parser
-
- Zerlegen Sie den angezeigten Text [Quelle](http://gutenberg.spiegel.de/buch/quitt-4454/1) in einzelnen Sätze und kennzeichnen Sie diese abwechselnd mit Hilfe der vorgegebene CSS-Klassen `sentence-even` und `sentence-odd`.
+<h1>Parser</h1>
+<p>Zerlegen Sie den angezeigten Text (<a href="http://gutenberg.spiegel.de/buch/quitt-4454/1">Quelle</a>) in einzelnen Sätze und kennzeichnen Sie diese abwechselnd mit Hilfe der vorgegebene CSS-Klassen <code>sentence-even</code> und <code>sentence-odd</code>.</p>

@@ -6,31 +6,16 @@
     `.task-el {
   position: fixed;
   width: 30vw;
-  top: 8vh;
-  right: 5vw;
+  top: 10vh;
+  right: 1vw;
   padding: 1vw;
   border-width: 0;
   border-radius: 0.4em;
-  background: rgb(30, 30, 30);
+  background: rgba(30, 30, 30, 0.85);
   font-size: 1.1em;
   line-height: 1.75em;
   color: rgb(255, 255, 255);
   z-index: 9999;
-}
-
-.task-el:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 75%;
-  width: 0;
-  height: 0;
-  border: 3vh solid transparent;
-  border-bottom-color: rgb(30, 30, 30);
-  border-top: 0;
-  margin-left: -2vh;
-  margin-top: -2vh;
-  z-index: 9998;
 }
 
 .task-hidden {
@@ -41,10 +26,15 @@
     taskToggleButton = document.querySelector("#task-toggle");
 
   function init() {
+    insertTaskDescrition();
     injectCSS();
     hideTaskElement();
     taskEl.classList.add("task-el");
     taskToggleButton.addEventListener("click", onTaskToggleButtonClicked);
+  }
+
+  function insertTaskDescrition() {
+    fetch("./Readme.md").then(response => response.text()).then(text => taskEl.innerHTML = text); 
   }
 
   function injectCSS() {

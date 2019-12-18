@@ -1,0 +1,23 @@
+{
+  "name": "mme-code-kata",
+  "version": "1.0.0",
+  "description": "A collection of Code Kata for the MME class",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multimedia-Engineering-Regensburg/Code-Kata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Multimedia-Engineering-Regensburg/Code-Kata/issues"
+  },
+  "homepage": "https://github.com/Multimedia-Engineering-Regensburg/Code-Kata#readme",
+  "dependencies": {
+    "http-server": "^0.12.0"
+  }
+}
