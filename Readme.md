@@ -4,7 +4,7 @@ In diesem Repository finden Sie eine Reihen von [*Code Kata*](https://en.wikiped
 
 ## Vorgehen
 
-Laden Sie das Repository (per direktem Download oder `git clone`) herunter. In jedem der Ordner befindet sich eine individuelle Aufgabe. Für jede Aufgabe ist eine einfache Programmstruktur mit den benötigten HTML- und CSS-Dateien vorgegeben. Die Implementierung Ihrer Lösung beginnen Sie jeweils in der Datei `resource/js/app.js`. Öffnen Sie dazu im Browser die HTML-Datei (`index.html`) aus dem Aufgabenordner. Die Aufgabenstellung selbst ist in diese Datei integriert und kann über einen Klick auf den Info-Button (rechts oben) ein- bzw. ausgeblendet werden.
+Laden Sie das Repository (per direktem Download oder `git clone`) herunter. In jedem der Ordner befindet sich eine individuelle Aufgabe. Für jede Aufgabe ist eine einfache Programmstruktur mit den benötigten HTML- und CSS-Dateien vorgegeben. Die Implementierung Ihrer Lösung beginnen Sie jeweils in der Datei `resource/js/app.js`. Starten Sie dazu mittels `npm install` und `npm start` einen lokalen Webserver und öffnen Sie die Startseite im Browser (`http://localhost:8080/index.html`). Folgen Sie den Anweisungen auf der Startseite.
 
 ## Übersicht
 
