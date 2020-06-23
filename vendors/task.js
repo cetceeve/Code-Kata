@@ -10,12 +10,17 @@
   right: 1vw;
   padding: 1vw;
   border-width: 0;
-  border-radius: 0.4em;
-  background: rgba(30, 30, 30, 0.85);
+  border-radius: 0.25em;
+  background: rgba(51,51,154, 1);
   font-size: 1.1em;
   line-height: 1.75em;
   color: rgb(255, 255, 255);
   z-index: 9999;
+}
+
+.task-el a {
+  color: rgb(255,255,255);
+  text-decoration: underline;
 }
 
 .task-hidden {

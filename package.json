@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/Multimedia-Engineering-Regensburg/Code-Kata#readme",
   "dependencies": {
-    "http-server": "^0.12.0"
+    "http-server": "^0.12.3"
   }
 }
